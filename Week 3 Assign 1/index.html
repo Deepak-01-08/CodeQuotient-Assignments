@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="body">
+
+    <header>
+        <nav>
+            
+            <div class="navbar">
+                <span id="name" style="float: left;">Name</span>
+                ToDo App
+                <button id="logout" style="float: right;"><a href="/">Log Out</a></button>
+            </div>
+
+        </nav>
+    </header>
+
+    <div class="mainContainer">
+        
+        <div class="leftpart">
+            <div class="leftpart1">
+                <h2>TASK LIST</h2>
+                <p>Add tasks to your list by typing to the right and pressing enter. You may then view pending tasks below.</p>
+            </div>
+
+            <div class="leftpart2">
+                 <ul  class="list-items">
+                   
+                 </ul>
+            </div>
+        </div>
+        
+        <div class="rightpart">
+               <input id="taskTodo"   class="todoTask" type="text" placeholder="I need to...">
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
